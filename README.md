@@ -7,10 +7,25 @@
 [![下载](https://img.shields.io/badge/下载-最新版本-cca85b)](https://github.com/tobaba/UCalendar/releases/latest)
 [![AI](https://img.shields.io/badge/AI-一句话建日程-8b5cf6)](#ai-小秘书真的会动手)
 ![平台](https://img.shields.io/badge/平台-Windows%2010%20%2F%2011-4a7de8)
-![体积](https://img.shields.io/badge/体积-7.7%20MB-4a7de8)
+![体积](https://img.shields.io/badge/体积-7.6%20MB-4a7de8)
+![版本](https://img.shields.io/badge/版本-v1.5.18-4a7de8)
 ![数据](https://img.shields.io/badge/数据-全部本地-7fb26a)
 
 ![主面板：日程、待办、黄历、天气与月历一屏打尽（流光主题）](assets/readme/panel.png)
+
+## 任务栏时钟 + 托盘图标：两个随手可及的入口
+
+<table>
+<tr>
+<td width="50%" align="center"><img src="assets/readme/menu.png" width="290" alt="右键菜单"><br><b>右键菜单（应用自绘卡片）</b><br>跟随主题配色：主题色卡、桌面组件开关、解除穿透、开机自启都在这一张卡片里</td>
+<td width="50%" align="center"><img src="assets/readme/tray.png" width="330" alt="托盘图标"><br><b>托盘常驻（Windows）</b><br>通知区留一个入口：左键呼出面板、右键出同一套菜单；Win11 上不再缩进「^」里</td>
+</tr>
+</table>
+
+- **左键点任务栏时钟** → 弹出日历面板（在时钟正上方展开）
+- **右键点任务栏时钟** → 上面这张自绘卡片
+- **托盘图标**（Windows）→ 左键面板、右键同一套卡片，不用再点「^」展开去找
+- **全局热键** `Ctrl+Alt+C` 随时呼出 / 收起
 
 ## 这些场景，你中了几条？
 
@@ -44,7 +59,8 @@ AI：已写入日历 ✅
 
 ## 一眼看懂
 
-- **任务栏时钟即入口**：左键呼出面板，右键是快捷菜单（打开日历 / 打开设置 / 私人秘书 / 桌面组件开关 / 解除穿透 / 开机启动 / 退出）；日期行可自选「年月日 / 带星期 / 跟随系统」，Win10 小任务栏按钮下会自动切回普通高度
+- **任务栏时钟即入口**：左键呼出面板，右键是自绘的快捷卡片（打开日历 / 私人秘书 / 解除穿透 / 桌面组件开关 / 主题色卡 / 开机自启 / 打开设置 / 退出）；Windows 上通知区还常驻一个托盘图标（左键面板、右键同一套卡片）
+- **任务栏日期可自选**：「年月日 / 带星期 / 跟随系统」，Win10 小任务栏按钮下会自动切回普通高度
 - **桌面组件 8 种**：需要一直看见的东西，挂在桌面上
 - **AI 与日历同一份数据**：它读写的就是你看到的日程与待办，不另存一份
 - **单文件、不登录、数据全在本机**：删掉 exe 即卸载（`data\` 一并删除即可）
@@ -70,7 +86,7 @@ AI：已写入日历 ✅
 </tr>
 </table>
 
-全部组件支持：拖动、缩放、透明度、锁定位置、鼠标穿透（不挡桌面操作）。
+全部组件支持：拖动、缩放、透明度、锁定位置、鼠标穿透（不挡桌面操作）。**开穿透期间组件会浮在最上层**，不被资源管理器等窗口盖住；关掉穿透则退回普通层级（可点、可拖到前面）。
 
 ## 12 套主题
 
@@ -91,7 +107,7 @@ AI：已写入日历 ✅
 
 ## 下载
 
-**[下载最新版本](https://github.com/tobaba/UCalendar/releases/latest/download/UCalendar.exe)**（约 7.7 MB）
+**[下载最新版本](https://github.com/tobaba/UCalendar/releases/latest/download/UCalendar.exe)**（约 7.6 MB）
 
 1. 下载 `UCalendar.exe`，双击运行，**无需安装**
 2. 左键点任务栏时钟呼出面板；右键时钟是快捷菜单
