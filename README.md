@@ -8,7 +8,7 @@
 [![AI](https://img.shields.io/badge/AI-一句话建日程-8b5cf6)](#ai-小秘书真的会动手)
 ![平台](https://img.shields.io/badge/平台-Windows%2010%20%2F%2011-4a7de8)
 ![体积](https://img.shields.io/badge/体积-7.6%20MB-4a7de8)
-![版本](https://img.shields.io/badge/版本-v1.5.18-4a7de8)
+![版本](https://img.shields.io/badge/版本-v1.5.19-4a7de8)
 ![数据](https://img.shields.io/badge/数据-全部本地-7fb26a)
 
 ![主面板：日程、待办、黄历、天气与月历一屏打尽（流光主题）](assets/readme/panel.png)
