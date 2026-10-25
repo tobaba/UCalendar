@@ -1,17 +1,37 @@
 # UCalendar
 
-**Windows 桌面日历 · 会动手的 AI 小秘书 · 任务栏时钟 · 8 个桌面组件**
+**Windows 桌面日历 · 会动手的 AI 小秘书 · 任务栏时钟 · 9 个桌面组件**
 
 单文件绿色版，双击即用。一句话让 AI 建日程、查空闲、改期、写周报；日历、日程、待办、黄历、天气住在桌面上，任务栏时钟点开就是今天。
 
 [![下载](https://img.shields.io/badge/下载-最新版本-cca85b)](https://github.com/tobaba/UCalendar/releases/latest)
 [![AI](https://img.shields.io/badge/AI-一句话建日程-8b5cf6)](#ai-小秘书真的会动手)
 ![平台](https://img.shields.io/badge/平台-Windows%2010%20%2F%2011-4a7de8)
-![体积](https://img.shields.io/badge/体积-7.9%20MB-4a7de8)
-![版本](https://img.shields.io/badge/版本-v2.0.0-4a7de8)
+![体积](https://img.shields.io/badge/体积-8.0%20MB-4a7de8)
+![版本](https://img.shields.io/badge/版本-v2.1.0-4a7de8)
 ![数据](https://img.shields.io/badge/数据-全部本地-7fb26a)
 
 ![主面板：日程、待办、黄历、天气与月历一屏打尽（流光主题）](assets/readme/panel.png)
+
+## v2.1.0 新增
+
+<table>
+<tr>
+<td width="50%" align="center"><img src="assets/readme/v21-reminder.png" width="360" alt="提醒 2.0"><br><b>提醒 2.0</b><br>日程/待办支持多个提前提醒点；同一时刻只提醒一次，Toast 可推迟，旧提醒数据自动兼容</td>
+<td width="50%" align="center"><img src="assets/readme/v21-pomodoro-bind.png" width="250" alt="番茄钟绑定任务"><br><b>番茄钟绑定任务</b><br>组件内搜索、切换、解绑待办，不用再进设置页；支持键盘选择和搜索</td>
+</tr>
+<tr>
+<td align="center"><img src="assets/readme/pomodoro.png" width="250" alt="番茄钟专注统计"><br><b>专注统计</b><br>显示「本任务 N 番茄 · M 分钟」；专注段使用任务快照，改名/完成/删除不会写错记录</td>
+<td align="center"><img src="assets/readme/v21-pinned.png" width="330" alt="置顶待办"><br><b>置顶待办</b><br>星标最多 3 条，置顶到「今日安排」顶部和主面板待办列表；完成/删除自动清理</td>
+</tr>
+<tr>
+<td align="center"><img src="assets/readme/v21-collapse.png" width="420" alt="桌面组件收起"><br><b>组件收起</b><br>单个组件收成 40px 摘要条，位置/透明度/穿透不丢；也支持全部收起/展开</td>
+<td align="center"><img src="assets/readme/v21-focus.png" width="250" alt="专注模式"><br><b>专注模式</b><br>Ctrl+Alt+H 瞬时隐藏全部桌面组件，主面板和设置不受影响；重启不保持隐藏</td>
+</tr>
+<tr>
+<td align="center" colspan="2"><img src="assets/readme/countdown.png" width="280" alt="倒计时组件"><br><b>倒计时组件（第 9 个桌面组件）</b><br>公历/农历、忽略年份、年龄、主题色、进度环；首次为空自动放入最近 3 个节日，日期选择器已深色化</td>
+</tr>
+</table>
 
 ## 任务栏时钟 + 托盘图标：两个随手可及的入口
 
@@ -73,15 +93,18 @@ AI：已写入日历 ✅
 
 - **任务栏时钟即入口**：左键呼出面板，右键是自绘的快捷卡片（打开日历 / 私人秘书 / 解除穿透 / 桌面组件开关 / 主题色卡 / 开机自启 / 打开设置 / 退出）；Windows 上通知区还常驻一个托盘图标（左键面板、右键同一套卡片）
 - **任务栏日期可自选**：「年月日 / 带星期 / 跟随系统」，Win10 小任务栏按钮下会自动切回普通高度
-- **桌面组件 8 种**：需要一直看见的东西，挂在桌面上
+- **桌面组件 9 种**：需要一直看见的东西，挂在桌面上；支持单个收起成 40px 摘要条、全部收起、`Ctrl+Alt+H` 专注模式
+- **提醒 2.0**：日程/待办可设多个提前提醒点；同一时刻只提醒一次，Toast 可推迟，旧数据自动兼容
+- **番茄钟绑定任务**：组件内直接选待办，显示本任务番茄数与分钟；专注记录留在本机，改名/完成/删除不会写错任务
+- **置顶待办**：待办星标最多 3 条，固定到「今日安排」顶部和主面板待办列表，完成/删除自动清理
 - **AI 与日历同一份数据**：它读写的就是你看到的日程与待办，不另存一份
 - **单文件、不登录、数据全在本机**：删掉 exe 即卸载（`data\` 一并删除即可）
 
-## 桌面组件（8 种，随放随用）
+## 桌面组件（9 种，随放随用）
 
 <table>
 <tr>
-<td width="50%" align="center"><img src="assets/readme/agenda.png" width="330" alt="今日安排"><br><b>今日安排</b><br>逾期 / 今天 / 本周 / 本月 / 全年五档视图，日程与待办按时间排好，空闲时段一目了然</td>
+<td width="50%" align="center"><img src="assets/readme/agenda.png" width="330" alt="今日安排"><br><b>今日安排</b><br>逾期 / 今天 / 本周 / 本月 / 全年五档视图，顶部置顶待办，日程与待办按时间排好</td>
 <td width="50%" align="center"><img src="assets/readme/calendar.png" width="330" alt="桌面月历"><br><b>桌面月历</b><br>农历、节气、节假日调休、跨天日程条与日程圆点，一眼看完整月</td>
 </tr>
 <tr>
@@ -90,11 +113,14 @@ AI：已写入日历 ✅
 </tr>
 <tr>
 <td align="center"><img src="assets/readme/weather.png" width="250" alt="天气预报"><br><b>天气预报</b><br>实时天气 + 24 小时逐时 + 3 天预报，多城市切换</td>
-<td align="center"><img src="assets/readme/pomodoro.png" width="250" alt="番茄钟"><br><b>番茄钟</b><br>专注 / 短休 / 长休周期可调，结束自动播报</td>
+<td align="center"><img src="assets/readme/pomodoro.png" width="250" alt="番茄钟"><br><b>番茄钟</b><br>专注 / 短休 / 长休周期可调，绑定待办并记录本任务番茄数，结束自动播报</td>
 </tr>
 <tr>
 <td align="center"><img src="assets/readme/stopwatch.png" width="250" alt="秒表"><br><b>秒表</b><br>百分之一秒精度，分段计次，关窗不丢状态</td>
 <td align="center"><img src="assets/readme/stickynote.png" width="260" alt="待办便笺"><br><b>待办便笺</b><br>随手记的彩色便签，常驻桌面，不用打开主面板</td>
+</tr>
+<tr>
+<td align="center" colspan="2"><img src="assets/readme/countdown.png" width="280" alt="倒计时"><br><b>倒计时</b><br>生日 / 纪念日 / 节日 / 考试 / 旅行，公历农历都支持；首次为空自动推荐最近 3 个节日，标题自动配图标</td>
 </tr>
 </table>
 
@@ -119,7 +145,7 @@ AI：已写入日历 ✅
 
 ## 下载
 
-**[下载最新版本](https://github.com/tobaba/UCalendar/releases/latest/download/UCalendar.exe)**（约 7.9 MB）
+**[下载最新版本](https://github.com/tobaba/UCalendar/releases/latest/download/UCalendar.exe)**（约 8.0 MB）
 
 1. 下载 `UCalendar.exe`，双击运行，**无需安装**
 2. 左键点任务栏时钟呼出面板；右键时钟是快捷菜单
