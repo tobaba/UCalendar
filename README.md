@@ -8,12 +8,12 @@
 [![AI](https://img.shields.io/badge/AI-一句话建日程-8b5cf6)](#ai-小秘书真的会动手)
 ![平台](https://img.shields.io/badge/平台-Windows%2010%20%2F%2011-4a7de8)
 ![体积](https://img.shields.io/badge/体积-8.0%20MB-4a7de8)
-![版本](https://img.shields.io/badge/版本-v2.1.0-4a7de8)
+![版本](https://img.shields.io/badge/版本-v2.1.1-4a7de8)
 ![数据](https://img.shields.io/badge/数据-全部本地-7fb26a)
 
 ![主面板：日程、待办、黄历、天气与月历一屏打尽（流光主题）](assets/readme/panel.png)
 
-## v2.1.0 新增
+## 近期新增
 
 <table>
 <tr>
@@ -97,6 +97,10 @@ AI：已写入日历 ✅
 - **提醒 2.0**：日程/待办可设多个提前提醒点；同一时刻只提醒一次，Toast 可推迟，旧数据自动兼容
 - **番茄钟绑定任务**：组件内直接选待办，显示本任务番茄数与分钟；专注记录留在本机，改名/完成/删除不会写错任务
 - **置顶待办**：待办星标最多 3 条，固定到「今日安排」顶部和主面板待办列表，完成/删除自动清理
+- **待办子任务**：大事拆成小步骤，最多 50 项、单项 200 字；列表显示 `2/5`，重复待办下一期自动重置勾选
+- **统一回收站**：日程/待办/便签删除后保留 30 天，设置页可搜索、恢复、彻底删除；附件保留到彻底删除
+- **便签落库**：便签改 SQLite 持久化，支持标签、删除进回收站、Markdown 导出；旧 localStorage 自动迁移
+- **依赖升级**：同步 Tauri 2.12.5、tauri-build 2.7.4、wry 0.57.1、tao 0.37.2、CLI 2.12.4，以及托盘/插件依赖
 - **AI 与日历同一份数据**：它读写的就是你看到的日程与待办，不另存一份
 - **单文件、不登录、数据全在本机**：删掉 exe 即卸载（`data\` 一并删除即可）
 
@@ -117,7 +121,7 @@ AI：已写入日历 ✅
 </tr>
 <tr>
 <td align="center"><img src="assets/readme/stopwatch.png" width="250" alt="秒表"><br><b>秒表</b><br>百分之一秒精度，分段计次，关窗不丢状态</td>
-<td align="center"><img src="assets/readme/stickynote.png" width="260" alt="待办便笺"><br><b>待办便笺</b><br>随手记的彩色便签，常驻桌面，不用打开主面板</td>
+<td align="center"><img src="assets/readme/stickynote.png" width="260" alt="待办便笺"><br><b>待办便笺</b><br>随手记的彩色便签，点开即写；支持换色、标签、SQLite 持久化，删除进回收站</td>
 </tr>
 <tr>
 <td align="center" colspan="2"><img src="assets/readme/countdown.png" width="280" alt="倒计时"><br><b>倒计时</b><br>生日 / 纪念日 / 节日 / 考试 / 旅行，公历农历都支持；首次为空自动推荐最近 3 个节日，标题自动配图标</td>
@@ -137,7 +141,7 @@ AI：已写入日历 ✅
 ## 日历与提醒
 
 - 月历 + **农历 / 节气 / 节假日调休 / 黄历宜忌**，今天适合做什么一眼看懂
-- 日程支持自然语言输入、重复规则、提前提醒；待办四档优先级、逾期标记
+- 日程支持自然语言输入、重复规则、提前提醒；待办四档优先级、子任务拆解、逾期标记
 - **语音播报**：整点报时、久坐提醒、日程提醒，可换音色、语速，报时文案支持变量（时间 / 农历 / 宜忌 / 下一个日程）
 - 全局热键呼出（默认 `Ctrl+Alt+C`）、开机自启；常驻任务栏时钟（macOS 为菜单栏图标，无系统托盘）
 
@@ -179,7 +183,7 @@ cd ..
 .\UCalendar.Web\node_modules\.bin\tauri build --no-bundle   # 产物：src-tauri/target/release/UCalendar.exe
 ```
 
-技术栈：Tauri 2 · Rust（rusqlite / rustls / Ed25519）· React + antd · Vite。
+技术栈：Tauri 2.12.5 · Rust（rusqlite / rustls / Ed25519）· React + antd · Vite；桌面端同步 tauri-build 2.7.4 / wry 0.57.1 / tao 0.37.2 / CLI 2.12.4。
 
 ## 常见问题
 
