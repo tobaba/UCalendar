@@ -84,7 +84,7 @@ AI：已写入日历
 
 运行要求：Windows 10 / 11 + WebView2 运行时（Win11 与装过 Edge 的系统已自带）。
 
-**Lite 版（免费）**：6 个桌面组件、6 套主题，保留日程 / 待办 / 月历 / 便签与 AI；不含日迹 / 时间册导出 / 今日节奏入口。设置 → 关于可查看版本、数据目录和 Lite 仓库。
+**Lite 版（免费，当前 v2.6.1）**：6 个桌面组件、6 套主题，保留日程 / 待办 / 月历 / 便签与 AI；不含日迹 / 时间册导出 / 今日节奏入口。设置 → 关于可查看版本、数据目录和 Lite 仓库。
 
 [下载 UCalendar Lite](https://github.com/tobaba/ucalendar-lite/releases/latest/download/UCalendar-Lite.exe)
 
