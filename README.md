@@ -115,7 +115,7 @@ cd ..
 
 技术栈：Tauri 2.12.5 · Rust（rusqlite / rustls / Ed25519）· React 19 + antd · Vite。
 
-**杀毒 / 系统提示未知发布者？** 个人项目未购买代码签名证书，可从 Releases 页面下载并核对文件大小。
+**杀毒 / 系统提示未知发布者？** Pro 单文件已使用 `UCalendarCert` 代码签名；Lite 版暂未签名，SmartScreen 可能提示未知发布者。可从 Releases 页面下载并核对文件大小。
 
 **AI 功能必须联网吗？** 需要 API Key 与你选择的服务商；不配置时其余功能照常使用。
 
