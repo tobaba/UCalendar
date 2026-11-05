@@ -69,10 +69,18 @@
 ## 06 — 21 套主题，换一种桌面气质
 
 <p align="center">
-  <img src="assets/readme/themes.png" width="100%" alt="UCalendar 21 套主题：墨劫、流光、金曜、泰坦、霞樱、蓝图等">
+  <img src="assets/readme/themes-free.png" width="100%" alt="UCalendar 6 套免费主题：深色、浅色、护眼、暖阳、粉蓝、黛蓝">
 </p>
 
-<p align="center"><sub>6 套免费 + 15 套 Pro；面板、设置、弹窗和桌面组件同步换肤。</sub></p>
+<p align="center">
+  <img src="assets/readme/themes-pro-1.png" width="100%" alt="UCalendar Pro 主题：浅紫、霞樱、青岚、檀棕、金曜、流光、流银、蓝图">
+</p>
+
+<p align="center">
+  <img src="assets/readme/themes-pro-2.png" width="100%" alt="UCalendar Pro 主题：超立方、奇点、霓虹、量子、棱镜、泰坦、墨劫">
+</p>
+
+<p align="center"><sub>全部 21 套：6 套免费 + 15 套 Pro；面板、设置、弹窗和桌面组件同步换肤。</sub></p>
 
 ## 07 — AI 小秘书，真的会动手
 
