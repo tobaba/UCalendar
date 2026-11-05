@@ -19,18 +19,46 @@
 ## 01 — SHOWCASE
 
 <p align="center">
-  <img src="assets/readme/showcase.png" width="100%" alt="UCalendar 主面板：月历、日程、待办、黄历、天气">
+  <img src="assets/readme/showcase.png" width="100%" alt="UCalendar 主面板：月历项目条、日程、待办、黄历、天气">
 </p>
 
-<p align="center"><sub>默认墨劫主题 —— 左键点任务栏时钟，今天有没有会、这周还剩多少事，一屏说完</sub></p>
+<p align="center"><sub>默认墨劫主题 —— 左键点任务栏时钟，今天有没有会、这周还剩多少事、项目推进到哪，一屏说完</sub></p>
 
 ## 02 — CAPABILITIES
 
 <p align="center">
-  <img src="assets/readme/capabilities.png" width="100%" alt="AI 小秘书、任务栏入口、今日节奏、21 套主题">
+  <img src="assets/readme/capabilities.png" width="100%" alt="项目阶段、黄历吉日、AI 秘书、桌面组件">
 </p>
 
-## 03 — 9 个桌面组件
+## 03 — 项目管理（Pro）
+
+<p align="center">
+  <img src="assets/readme/projects.png" width="100%" alt="UCalendar 项目页：阶段进度、时间轴拖拽改期、阶段待办与提醒">
+</p>
+
+**项目不是一条待办，是一段有阶段的推进。** 客户改需求、阶段延期、待办散落——项目页把阶段、进度和提醒放在同一条时间轴上。
+
+- **阶段进度**：完成率 = 阶段位置 + 当前阶段待办完成度；没有待办时也不会算假进度
+- **时间轴拖拽**：直接拖动阶段起止改期，不用翻表单
+- **项目条直达**：月历上的项目条显示当前阶段和进度，点一下打开并聚焦该项目
+- **阶段提醒**：前 1 天 / 当天 09:00 提醒，节点不漏
+- **归属清晰**：日程、待办都能挂到项目和阶段，项目页直接看到阶段内待办
+
+## 04 — 黄历 / 吉日（免费）
+
+<p align="center">
+  <img src="assets/readme/almanac.png" width="100%" alt="UCalendar 黄历吉日：离线宜忌、18 格信息、吉日筛选与一键加日程">
+</p>
+
+**择日不靠翻网页，宜忌不靠猜。** 内置 1900–2100 黄历数据，独立窗查老黄历和吉日；找到日子直接落到日程或项目阶段。
+
+- **离线黄历**：宜忌、18 格信息、时辰吉凶、下个吉时、未来 7 天
+- **吉日筛选**：范围 / 仅周末 / 30–180 天，结果按月份分组
+- **直接落地**：一键加日程，或写进项目阶段
+- **分享长图**：把宜忌和吉日清单带走
+- **两个版本都能用**：Lite 也包含黄历 / 吉日，不联网也能查
+
+## 05 — 9 个桌面组件
 
 <p align="center">
   <img src="assets/readme/widgets.png" width="100%" alt="9 个桌面组件：今日安排、桌面月历、世界时钟、时间进度、天气、番茄钟、秒表、便笺、倒计时">
@@ -38,7 +66,15 @@
 
 全部组件支持拖动、缩放、透明度、锁定位置、鼠标穿透；单个可收成 40px 摘要条，`Ctrl+Alt+H` 一键专注模式。**开穿透期间组件浮在最上层**，不被资源管理器等窗口盖住。
 
-## 04 — AI 小秘书，真的会动手
+## 06 — 21 套主题，换一种桌面气质
+
+<p align="center">
+  <img src="assets/readme/themes.png" width="100%" alt="UCalendar 21 套主题：墨劫、流光、金曜、泰坦、霞樱、蓝图等">
+</p>
+
+<p align="center"><sub>6 套免费 + 15 套 Pro；面板、设置、弹窗和桌面组件同步换肤。</sub></p>
+
+## 07 — AI 小秘书，真的会动手
 
 ```text
 你：明天下午三点开会，提前 15 分钟提醒我
@@ -47,16 +83,20 @@ AI：已创建「开会」10 月 21 日 15:00（提醒 14:45），要现在写�
 AI：已写入日历
 ```
 
+<p align="center">
+  <img src="assets/readme/ai.png" width="100%" alt="UCalendar AI 私人秘书：8 个预设智能体、技能、记忆与检查点">
+</p>
+
 - **一句话建日程**：「明天下午三点开会 在会议室 A」「每周一晨会」—— 时间、地点、重复、提醒一次识别
 - **会查也会改**：问「这周还有哪些空？」「把周四的健身改到晚上 8 点」，查真实数据再动手
 - **日报 / 周报 / 月报 / 年报**：按真实日程与待办生成 Markdown，不用自己回忆
-- **6 个预设助手**：今日参谋、日程秘书、待办管家、周报官、月报官、年报官；也能一句话自建助手，或从聊天记录自动提炼
+- **8 个预设助手**：今日参谋、日程秘书、日迹分析师、待办管家、研究员、周报官、月报官、年报官；也能一句话自建助手，或从聊天记录自动提炼
 - **多服务商**：DeepSeek、任意 OpenAI 兼容接口、Claude；Key 自己填，只存本机
 - **技能调用**：工作区 `skills/` 放技能说明，输入 `/` 直接选择并注入；`Ctrl+Alt+A` 可随时打开私人秘书
 - **安全边界**：写日程、删数据、执行命令都要弹窗确认；文件操作限定在工作目录
 - **自动朗读**：到点按设置语音播报，像个真的秘书
 
-## 05 — DETAILS
+## 08 — DETAILS
 
 <p align="center">
   <img src="assets/readme/stats.png" width="100%" alt="9 个组件、21 套主题、9.1 MB 单文件、0 个需要注册的账号">
@@ -76,7 +116,7 @@ AI：已写入日历
 - **入口**：左键任务栏时钟呼出面板，右键是自绘快捷卡片，托盘图标常驻，`Ctrl+Alt+C` 全局热键，支持开机自启
 - **数据**：默认在 `%LOCALAPPDATA%\UCalendar`；exe 同目录有 `data\` 时使用便携目录，拷走文件夹 = 带走全部数据
 
-## 06 — DOWNLOAD
+## 09 — DOWNLOAD
 
 **[下载最新版本](https://github.com/tobaba/UCalendar/releases/latest/download/UCalendar.exe)**（约 9.1 MB）
 
@@ -90,7 +130,7 @@ AI：已写入日历
 
 [下载 UCalendar Lite](https://github.com/tobaba/ucalendar-lite/releases/latest/download/UCalendar-Lite.exe)
 
-## 07 — 怎么支持
+## 10 — 怎么支持
 
 日程和待办一直免费，没有广告、不订阅、不联网。20 元起自愿支持，感谢回馈 **UCalendar Pro**：
 
@@ -108,7 +148,7 @@ AI：已写入日历
   <img src="assets/readme/support.png" width="420" alt="支持作者">
 </p>
 
-## 08 — SOURCE & FAQ
+## 11 — SOURCE & FAQ
 
 ```powershell
 cd UCalendar.Web
