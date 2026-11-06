@@ -65,10 +65,16 @@
 </p>
 
 <p align="center">
-  <img src="assets/readme/calendar-views.png" width="100%" alt="桌面日历三种显示模式：完整月历、周视图、焦点视图">
+  <img src="assets/readme/calendar-view-full.png" width="720" alt="桌面日历完整月历：整月一览、项目条、农历与节假日">
 </p>
 
-<p align="center"><sub>桌面日历支持完整月历 / 周视图 / 焦点视图；宽窗看时间网格，窄窗自动收成周议程。</sub></p>
+<p align="center">
+  <img src="assets/readme/calendar-view-week.png" width="720" alt="桌面日历周视图：按天时间网格，窄窗自动收成周议程">
+</p>
+
+<p align="center">
+  <img src="assets/readme/calendar-view-focus.png" width="720" alt="桌面日历焦点视图：只看选中日期的日程与待办">
+</p>
 
 <p align="center">
   <img src="assets/readme/widget-settings.png" width="520" alt="桌面组件设置：显示模式、拖动吸附、Pro 卡片外观、应用到全部、恢复当前/全部">
