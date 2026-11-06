@@ -64,13 +64,19 @@
   <img src="assets/readme/widgets.png" width="100%" alt="9 个桌面组件：今日安排、桌面月历、世界时钟、时间进度、天气、番茄钟、秒表、便笺、倒计时">
 </p>
 
+### 完整月历
+
 <p align="center">
   <img src="assets/readme/calendar-view-full.png" width="720" alt="桌面日历完整月历：整月一览、项目条、农历与节假日">
 </p>
 
+### 周视图
+
 <p align="center">
   <img src="assets/readme/calendar-view-week.png" width="720" alt="桌面日历周视图：按天时间网格，窄窗自动收成周议程">
 </p>
+
+### 焦点视图
 
 <p align="center">
   <img src="assets/readme/calendar-view-focus.png" width="720" alt="桌面日历焦点视图：只看选中日期的日程与待办">
