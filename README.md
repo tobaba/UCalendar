@@ -64,6 +64,18 @@
   <img src="assets/readme/widgets.png" width="100%" alt="9 个桌面组件：今日安排、桌面月历、世界时钟、时间进度、天气、番茄钟、秒表、便笺、倒计时">
 </p>
 
+<p align="center">
+  <img src="assets/readme/calendar-views.png" width="100%" alt="桌面日历三种显示模式：完整月历、周视图、焦点视图">
+</p>
+
+<p align="center"><sub>桌面日历支持完整月历 / 周视图 / 焦点视图；宽窗看时间网格，窄窗自动收成周议程。</sub></p>
+
+<p align="center">
+  <img src="assets/readme/widget-settings.png" width="520" alt="桌面组件设置：显示模式、拖动吸附、Pro 卡片外观、应用到全部、恢复当前/全部">
+</p>
+
+<p align="center"><sub>组件设置：显示模式、拖动吸附、Pro 磨砂 / 字体 / 文字颜色，以及应用到全部 / 恢复当前 / 恢复全部。</sub></p>
+
 全部组件支持拖动、缩放、透明度、锁定位置、鼠标穿透；单个可收成 40px 摘要条，`Ctrl+Alt+H` 一键专注模式。**开穿透期间组件浮在最上层**，不被资源管理器等窗口盖住。
 
 - **拖动吸附**：拖动时实时吸附屏幕 / 组件边缘与中线，松手保持；按住 `Shift` 临时关闭
