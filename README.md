@@ -25,7 +25,7 @@
 <p align="center"><sub>默认墨劫主题 —— 左键点任务栏时钟，今天有没有会、这周还剩多少事、项目推进到哪，一屏说完</sub></p>
 
 <p align="center">
-  <img src="assets/readme/menu.png" width="344" alt="UCalendar 右键控制中心：快捷新建、今日概览、组件 / 主题 / 系统设置">
+  <img src="assets/readme/menu-v267.png" width="344" alt="UCalendar 右键控制中心：快捷新建、今日概览、组件 / 主题 / 系统设置">
 </p>
 
 <p align="center"><sub>右键任务栏时钟：快捷新建日程 / 待办 / 便签，今日概览，组件、主题、系统设置一页切换</sub></p>
