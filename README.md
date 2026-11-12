@@ -100,6 +100,22 @@
 
 <p align="center"><sub>组件设置：显示模式、拖动吸附、Pro 磨砂 / 字体 / 文字颜色，以及应用到全部 / 恢复当前 / 恢复全部。</sub></p>
 
+### 新增 Pro 组件
+
+<p align="center">
+  <img src="assets/readme/project.png" width="300" alt="项目进度组件：进行中项目、当前阶段、进度环与截止日">
+  <img src="assets/readme/stock.png" width="360" alt="股票行情组件：自选列表、实时行情与 K 线">
+  <img src="assets/readme/music.png" width="320" alt="音乐播放组件：系统媒体会话、封面、进度与播放控制">
+</p>
+
+<p align="center"><sub>项目进度 · 股票行情 · 音乐播放（Pro）</sub></p>
+
+### 收起胶囊栏
+
+<p align="center">
+  <img src="assets/readme/capsule.png" width="720" alt="收起组件汇总胶囊栏：点击或悬停展开，支持拖动排序和全部展开">
+</p>
+
 全部组件支持拖动、缩放、透明度、锁定位置、鼠标穿透；收起后汇总到全局胶囊栏，点击或悬停展开，`Ctrl+Alt+H` 一键专注模式。**开穿透期间组件浮在最上层**，不被资源管理器等窗口盖住。
 
 - **拖动吸附**：拖动时实时吸附屏幕 / 组件边缘与中线，松手保持；按住 `Shift` 临时关闭
@@ -172,7 +188,7 @@ AI：已写入日历
 ## 08 — DETAILS
 
 <p align="center">
-  <img src="assets/readme/stats.png" width="100%" alt="12 个组件、28 套主题、9.2 MB 单文件、0 个需要注册的账号">
+  <img src="assets/readme/stats.png" width="100%" alt="12 个组件、28 套主题、9.4 MB 单文件、0 个需要注册的账号">
 </p>
 
 - **提醒 2.0**：日程 / 待办可设多个提前提醒点，同一时刻只提醒一次，Toast 可推迟，旧数据自动兼容
@@ -193,7 +209,7 @@ AI：已写入日历
 
 ## 09 — DOWNLOAD
 
-**[下载最新版本](https://github.com/tobaba/UCalendar/releases/latest/download/UCalendar.exe)**（约 9.1 MB）
+**[下载最新版本](https://github.com/tobaba/UCalendar/releases/latest/download/UCalendar.exe)**（约 9.4 MB）
 
 1. 下载 `UCalendar.exe`，双击运行，无需安装
 2. 左键点任务栏时钟呼出面板；右键时钟是快捷卡片
