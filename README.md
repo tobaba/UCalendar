@@ -73,7 +73,7 @@
 ## 05 — 12 个桌面组件
 
 <p align="center">
-  <img src="assets/readme/widgets.png" width="100%" alt="12 个桌面组件：今日安排、桌面月历、世界时钟、时间进度、天气、番茄钟、秒表、便笺、倒计时、项目进度、股票行情、音乐播放">
+  <img src="assets/readme/widgets.png" width="100%" alt="12 个桌面组件：桌面月历、日程 / 待办、天气、番茄钟、倒计时、便签、世界时钟、秒表、时间进度、项目进度、股票行情、音乐播放">
 </p>
 
 ### 完整月历
@@ -217,7 +217,7 @@ AI：已写入日历
 
 运行要求：Windows 10 / 11 + WebView2 运行时（Win11 与装过 Edge 的系统已自带；缺失时首次启动会自动联网安装）。
 
-**Lite 版（免费，当前 v2.7.0）**：6 个桌面组件、6 套主题，保留日程 / 待办 / 月历 / 黄历吉日 / 便签与 AI；项目管理、便签管理、日迹 / 时间册导出 / 今日节奏、微信机器人属于 Pro。设置 → 关于可查看版本、GitHub 反馈和 Pro 升级入口。
+**Lite 版（免费，当前 v2.8.2）**：6 个桌面组件、6 套主题，保留日程 / 待办 / 月历 / 黄历吉日 / 便签与 AI；项目管理、便签管理、日迹 / 时间册导出 / 今日节奏、微信机器人属于 Pro。设置 → 关于可查看版本、GitHub 反馈和 Pro 升级入口。
 
 [下载 UCalendar Lite](https://github.com/tobaba/ucalendar-lite/releases/latest/download/UCalendar-Lite.exe)
 
