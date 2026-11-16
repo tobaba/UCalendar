@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/readme/hero.svg" width="720" alt="UCalendar — 任务栏上的日历，会动手的 AI 小秘书">
+  <img src="assets/readme/showcase.png" width="720" alt="UCalendar 主面板：月历项目条、日程、待办、黄历、天气">
 </p>
 
 <p align="center">
@@ -14,36 +14,35 @@
 </p>
 
 <p align="center">
-  [概览](#概览) · [下载](#下载) · [组件](#12-个桌面组件) · [主题](#28-套主题) · [AI](#ai-小秘书) · [支持](#怎么支持) · [FAQ](#常见问题)
+  <sub>Windows 10 / 11 · 免安装 · 本地数据 · 代码签名</sub>
 </p>
 
-## 概览
+<p align="center">
+  [30 秒了解](#30-秒了解) · [下载](#下载) · [组件](#12-个桌面组件) · [主题](#28-套主题) · [AI](#ai-小秘书) · [支持](#怎么支持) · [FAQ](#常见问题)
+</p>
+
+## 30 秒了解
 
 <table>
 <tr>
-<td width="56%"><img src="assets/readme/showcase.png" width="100%" alt="UCalendar 主面板：月历项目条、日程、待办、黄历、天气"></td>
-<td width="44%">
-<ul>
-<li><b>任务栏时钟即入口</b>：左键呼出面板，右键快捷菜单；<code>Ctrl+Alt+C</code> 全局热键，托盘常驻</li>
-<li><b>12 个桌面组件</b>：月历、今日安排、天气、番茄钟、倒计时、便签、世界时钟、秒表、时间进度、项目进度、股票、音乐</li>
-<li><b>会动手的 AI</b>：一句话建日程、查空、改期、写周报；先查真实数据，写入前确认</li>
-<li><b>项目不是一条待办</b>：阶段、进度、时间轴拖拽改期，月历项目条直达</li>
-<li><b>黄历 / 吉日</b>：1900–2100 离线宜忌、时辰吉凶、吉日筛选，找到日子直接加日程</li>
-<li><b>本地优先</b>：数据默认在 <code>%LOCALAPPDATA%\UCalendar</code>；exe 同目录有 <code>data\</code> 时自动用便携目录</li>
-</ul>
-</td>
+<td width="33%"><b>任务栏时钟</b><br>左键呼出面板，右键快捷菜单；<code>Ctrl+Alt+C</code> 全局热键，托盘常驻。</td>
+<td width="33%"><b>12 个桌面组件</b><br>月历、日程、天气、番茄钟、倒计时、便签、世界时钟、秒表、时间进度、项目进度、股票、音乐。</td>
+<td width="33%"><b>会动手的 AI</b><br>一句话建日程、查空、改期、写周报；先查真实数据，写入前确认。</td>
+</tr>
+<tr>
+<td><b>项目管理</b><br>阶段、进度、时间轴拖拽改期，月历项目条直达。</td>
+<td><b>黄历 / 吉日</b><br>1900–2100 离线宜忌、时辰吉凶、吉日筛选，找到日子直接加日程。</td>
+<td><b>本地优先</b><br>数据默认在 <code>%LOCALAPPDATA%\UCalendar</code>；exe 同目录有 <code>data\</code> 时用便携目录。</td>
 </tr>
 </table>
 
-| 平台 | 安装 | 数据 | AI | 版本 |
-| --- | --- | --- | --- | --- |
-| Windows 10 / 11 | 单文件 exe，免安装 | 本地 SQLite，无账号 | 自带 Key，可选服务商 | Pro 9.4 MB · Lite 8.8 MB |
-
 ## 下载
 
-**Pro v2.8.2**（约 9.4 MB，免费下载，先体验后支持）：[下载 UCalendar.exe](https://github.com/tobaba/UCalendar/releases/latest/download/UCalendar.exe)
-
-**Lite v2.8.2**（约 8.8 MB，永久免费）：[下载 UCalendar-Lite.exe](https://github.com/tobaba/ucalendar-lite/releases/latest/download/UCalendar-Lite.exe)
+| | Pro | Lite |
+| --- | --- | --- |
+| 下载 | [UCalendar.exe](https://github.com/tobaba/UCalendar/releases/latest/download/UCalendar.exe) · 9.4 MB | [UCalendar-Lite.exe](https://github.com/tobaba/ucalendar-lite/releases/latest/download/UCalendar-Lite.exe) · 8.8 MB |
+| 价格 | 免费下载，先体验后支持 | 永久免费 |
+| 适合 | 项目、便签管理、日迹、12 组件、28 主题 | 日程、待办、月历、黄历、便签、6 组件、6 主题、AI |
 
 1. 下载 exe，双击运行，无需安装
 2. 左键点任务栏时钟呼出面板；右键时钟是快捷卡片
@@ -51,11 +50,20 @@
 
 运行要求：Windows 10 / 11 + WebView2 运行时（Win11 与装过 Edge 的系统通常已自带；缺失时首次启动会联网安装）。
 
-**Lite 与 Pro 的边界**：Lite 保留日程、待办、月历、今日安排、黄历吉日、便签、6 个桌面组件、6 套主题与 AI；项目管理、便签管理、日迹、时间册导出、今日节奏、微信机器人、6 个 Pro 专属组件、工作区预设和 22 套高级主题属于 Pro。两个版本数据互通。
+<details>
+<summary>Lite 与 Pro 的边界</summary>
+
+Lite 保留日程、待办、月历、今日安排、黄历吉日、便签、6 个桌面组件、6 套主题与 AI；项目管理、便签管理、日迹、时间册导出、今日节奏、微信机器人、6 个 Pro 专属组件、工作区预设和 22 套高级主题属于 Pro。两个版本数据互通。
+
+</details>
 
 ## 项目管理（Pro）
 
 **项目不是一条待办，是一段有阶段的推进。** 客户改需求、阶段延期、待办散落——项目页把阶段、进度和提醒放在同一条时间轴上。
+
+<p align="center">
+  <img src="assets/readme/projects.png" width="640" alt="UCalendar 项目页：阶段进度、时间轴拖拽改期、阶段待办与提醒">
+</p>
 
 | 能力 | 说明 |
 | --- | --- |
@@ -68,6 +76,10 @@
 ## 黄历 / 吉日（免费）
 
 **择日不靠翻网页，宜忌不靠猜。** 内置 1900–2100 黄历数据，独立窗查老黄历和吉日；找到日子直接落到日程或项目阶段。
+
+<p align="center">
+  <img src="assets/readme/almanac.png" width="640" alt="UCalendar 黄历吉日：离线宜忌、18 格信息、吉日筛选与一键加日程">
+</p>
 
 | 能力 | 说明 |
 | --- | --- |
@@ -128,7 +140,7 @@
 ## 28 套主题
 
 <p align="center">
-  <img src="assets/readme/appearance.png" width="520" alt="主题外观：28 套主题编号画廊 + 字体选择">
+  <img src="assets/readme/appearance.png" width="480" alt="主题外观：28 套主题编号画廊 + 字体选择">
 </p>
 
 从深色、浅色、护眼、暖阳到智核、蒙德里安、勃艮第，编号 01–28，设置里一屏看全。面板、设置、弹窗和桌面组件同步换肤；支持切换字体与字号。
@@ -188,7 +200,7 @@ UCalendar 运行时扫码绑定微信，私聊即可查询和修改日程、待�
 常用指令：`/today` `/weather` `/almanac` `/news` `/new` `/stop` `/support`
 
 <details>
-<summary>展开：AI 与微信机器人截图</summary>
+<summary>展开：微信机器人截图</summary>
 
 <p align="center">
   <img src="assets/readme/wechat-bot.png" width="360" alt="微信机器人">
@@ -234,7 +246,7 @@ UCalendar 运行时扫码绑定微信，私聊即可查询和修改日程、待�
 操作：面板右下角「怎么支持」→ 扫微信赞赏码并留下邮箱 → 收到支持码后填回同一页面。
 
 <p align="center">
-  <img src="assets/readme/support.png" width="360" alt="支持作者">
+  <img src="assets/readme/support.png" width="320" alt="支持作者">
 </p>
 
 ## 源码
