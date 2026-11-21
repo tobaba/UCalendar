@@ -13,13 +13,13 @@
 **Windows 桌面日历 + AI 私人秘书。** 日程、待办、项目、黄历、桌面组件和 AI 都在同一张桌面；本地 SQLite，不登录，单文件约 10.3 MB。
 
 <p align="center">
-  <img src="assets/readme/v284/hero-pro.png" width="720" alt="UCalendar Pro v2.8.4：Windows 桌面日历、12 个桌面组件与 AI 秘书">
+  <img src="assets/readme/tech/hero-pro.png" width="720" alt="UCalendar Pro v2.8.4：Windows 桌面日历、12 个桌面组件与 AI 秘书">
 </p>
 
 ## 一眼看懂
 
 <p align="center">
-  <img src="assets/readme/v284/capabilities.png" width="720" alt="UCalendar 项目管理、黄历吉日与 AI 秘书真实界面">
+  <img src="assets/readme/tech/capabilities.png" width="720" alt="UCalendar 项目管理、黄历吉日与 AI 秘书真实界面">
 </p>
 
 - **任务栏时钟即入口**：左键呼出面板，右键是快捷菜单；`Ctrl+Alt+C` 全局热键，托盘常驻
@@ -32,7 +32,7 @@
 ## 12 个桌面组件，读同一份数据
 
 <p align="center">
-  <img src="assets/readme/v284/widgets-pro.png" width="720" alt="UCalendar 12 个桌面组件：月历、日程/待办、天气、番茄钟、倒计时、便签、世界时钟、秒表、时间进度、项目进度、股票行情、音乐播放">
+  <img src="assets/readme/tech/widgets-pro.png" width="720" alt="UCalendar 12 个桌面组件：月历、日程/待办、天气、番茄钟、倒计时、便签、世界时钟、秒表、时间进度、项目进度、股票行情、音乐播放">
 </p>
 
 **不是静态展示卡。** 主面板改完，桌面上的组件立刻同步。
@@ -48,7 +48,7 @@
 ## 28 套主题，换一种桌面气质
 
 <p align="center">
-  <img src="assets/readme/v284/themes-pro.png" width="720" alt="UCalendar 28 套主题外观：编号 01–28，支持字体与字号">
+  <img src="assets/readme/tech/themes-pro.png" width="720" alt="UCalendar 28 套主题外观：编号 01–28，支持字体与字号">
 </p>
 
 从深色、浅色、护眼、暖阳到智核、蒙德里安、勃艮第，编号 01–28，设置里一屏看全。面板、设置、弹窗和桌面组件同步换肤；支持切换字体与字号。
@@ -60,7 +60,7 @@
 ## AI 小秘书，真的会动手
 
 <p align="center">
-  <img src="assets/readme/v284/ai-pro.png" width="720" alt="UCalendar AI 私人秘书：8 个预设智能体、技能、记忆与检查点">
+  <img src="assets/readme/tech/ai-pro.png" width="720" alt="UCalendar AI 私人秘书：8 个预设智能体、技能、记忆与检查点">
 </p>
 
 ```text
@@ -111,7 +111,7 @@ UCalendar 运行时扫码绑定微信，私聊即可查询和修改日程、待�
 **Lite v2.8.4**（约 8.8 MB，永久免费）：[下载 UCalendar-Lite.exe](https://github.com/tobaba/ucalendar-lite/releases/latest/download/UCalendar-Lite.exe)
 
 <p align="center">
-  <img src="assets/readme/v284/hero-lite.png" width="720" alt="UCalendar Lite v2.8.4：6 个桌面组件、6 套主题、AI 秘书免费可用">
+  <img src="assets/readme/tech/hero-lite.png" width="720" alt="UCalendar Lite v2.8.4：6 个桌面组件、6 套主题、AI 秘书免费可用">
 </p>
 
 1. 下载 exe，双击运行，无需安装
