@@ -13,7 +13,7 @@
 **Windows 桌面日历 + AI 私人秘书。** 日程、待办、项目、黄历、桌面组件和 AI 都在同一张桌面；本地 SQLite，不登录，单文件约 10.3 MB。
 
 <p align="center">
-  <img src="assets/readme/tech/hero-pro.png" width="720" alt="UCalendar Pro v2.8.4：Windows 桌面日历、12 个桌面组件与 AI 秘书">
+  <img src="assets/readme/tech/hero-pro.png" width="720" alt="UCalendar Pro v2.8.6：Windows 桌面日历、12 个桌面组件与 AI 秘书">
 </p>
 
 ## 一眼看懂
@@ -106,12 +106,12 @@ UCalendar 运行时扫码绑定微信，私聊即可查询和修改日程、待�
 
 ## 下载
 
-**Pro v2.8.4**（约 10.3 MB，免费下载，先体验后支持）：[下载 UCalendar.exe](https://github.com/tobaba/UCalendar/releases/latest/download/UCalendar.exe)
+**Pro v2.8.6**（约 9.8 MB，免费下载，先体验后支持）：[下载 UCalendar.exe](https://github.com/tobaba/UCalendar/releases/latest/download/UCalendar.exe)
 
-**Lite v2.8.4**（约 8.8 MB，永久免费）：[下载 UCalendar-Lite.exe](https://github.com/tobaba/ucalendar-lite/releases/latest/download/UCalendar-Lite.exe)
+**Lite v2.8.6**（约 8.4 MB，永久免费）：[下载 UCalendar-Lite.exe](https://github.com/tobaba/ucalendar-lite/releases/latest/download/UCalendar-Lite.exe)
 
 <p align="center">
-  <img src="assets/readme/tech/hero-lite.png" width="720" alt="UCalendar Lite v2.8.4：6 个桌面组件、6 套主题、AI 秘书免费可用">
+  <img src="assets/readme/tech/hero-lite.png" width="720" alt="UCalendar Lite v2.8.6：6 个桌面组件、6 套主题、AI 秘书免费可用">
 </p>
 
 1. 下载 exe，双击运行，无需安装
@@ -165,6 +165,10 @@ cd ..
 - 解锁 22 套高级主题与工作区预设
 - 前 100 位记为**创始支持者**，其余为**同行者**（可匿名）
 - 优先答疑，作者亲自回复
+
+<p align="center">
+  <img src="assets/readme/support.png" width="220" alt="UCalendar 微信赞赏码">
+</p>
 
 操作：面板右下角「怎么支持」→ 扫微信赞赏码并留下邮箱 → 收到支持码后填回同一页面。
 
