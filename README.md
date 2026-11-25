@@ -201,10 +201,10 @@ cd ..
 - 优先答疑，作者亲自回复
 
 <p align="center">
-  <img src="assets/readme/support.png?v=3.0.0" width="220" alt="UCalendar 微信收款码">
+  <img src="assets/readme/support.png?v=3.0.1" width="220" alt="UCalendar 作者微信二维码">
 </p>
 
-操作：面板右下角「怎么支持」→ 扫微信收款码，付款备注填写邮箱 → 收到支持码后填回同一页面。
+操作：面板右下角「怎么支持」→ 扫码加好友 → 发红包 → 收到支持码后填回同一页面。
 
 ---
 
