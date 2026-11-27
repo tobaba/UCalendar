@@ -35,7 +35,7 @@
 ## 15 个桌面组件，读同一份数据
 
 <p align="center">
-  <img src="assets/readme/v300/widgets-pro.png" width="880" alt="UCalendar Pro 桌面组件图集：月历、日程/待办、天气、番茄钟、便签、倒计时、世界时钟、秒表、时间进度、项目进度、股票行情、音乐播放">
+  <img src="assets/readme/v310/widgets-pro.png" width="880" alt="UCalendar Pro 15 个桌面组件：月历、日程/待办、天气、番茄钟、便签、倒计时、世界时钟、秒表、时间进度、项目进度、股票行情、音乐播放、每日打卡、系统监控、课程表">
 </p>
 
 **不是静态展示卡。** 主面板改完，桌面上的组件立刻同步；组件收起后汇总到全局胶囊栏，点击或悬停展开。
